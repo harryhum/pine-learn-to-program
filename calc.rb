@@ -15,11 +15,11 @@ puts "A decade has #{minutes_in_decade} minutes."
 
 def age_in_seconds
   age = 23
-  seconds_per_year = 365 * 24 * 60 * 60
+  seconds_per_year = hours_in_year * 60 * 60
 end
 puts "I am #{age_in_seconds} seconds old."
 
 def seconds_to_years(seconds)
-  seconds / 60 / 60 / 24 / 365
+  seconds / 60 / 60 / hours_in_year
 end
 puts "If you are 1,290,000,000 seconds old, you are #{seconds_to_years(1290000000)} years old."
