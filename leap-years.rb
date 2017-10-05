@@ -14,7 +14,8 @@ def leap_years_between(y1, y2)
   test_year += 1
   end
   puts 'The following years are leap years between ' + y1.to_s + ' and ' + y2.to_s + ':'
-  puts leap_years
+  print leap_years
+  puts ''
 end
 
 puts 'Enter a start and end year to find out which years in between are leap years.'
